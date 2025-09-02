@@ -42,7 +42,7 @@ public:
     friend class BTree<T>;
 };
 
-// B-Tree node
+// B-Tree
 template <typename T>
 class BTree {
     BTreeNode<T>* root; // pointer to root node
